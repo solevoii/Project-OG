@@ -1,0 +1,592 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.34f1 (25266724e7bd) revision 2434663'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 16269 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.34f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker8
+-projectPath
+C:/Users/potug/OneDrive/Рабочий стол/0.6.2
+-logFile
+Logs/AssetImportWorker8.log
+-srvPort
+52808
+Successfully changed project path to: C:/Users/potug/OneDrive/Рабочий стол/0.6.2
+C:/Users/potug/OneDrive/Рабочий стол/0.6.2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [13880] Host "[IP] 172.16.0.2 [Port] 0 [Flags] 2 [Guid] 1335205754 [EditorId] 1335205754 [Version] 1048832 [Id] WindowsEditor(7,SKITLSE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [13880] Host "[IP] 172.16.0.2 [Port] 0 [Flags] 2 [Guid] 1335205754 [EditorId] 1335205754 [Version] 1048832 [Id] WindowsEditor(7,SKITLSE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 99.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.34f1 (25266724e7bd)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.34f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/potug/OneDrive/Рабочий стол/0.6.2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 580 Series (ID=0x67df)
+    Vendor:   ATI
+    VRAM:     8170 MB
+    Driver:   31.0.21905.1001
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.34f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.34f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.34f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56680
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.34f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.34f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003846 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 197 ms
+Refreshing native plugins compatible for Editor in 89.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.853 seconds
+Domain Reload Profiling:
+	ReloadAssembly (854ms)
+		BeginReloadAssembly (85ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (684ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (95ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (530ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (323ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (90ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (80ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009473 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.271 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1272ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1075ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (230ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (673ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (559ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3890 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (48.9 KB). Loaded Objects now: 4341.
+Memory consumption went from 136.2 MB to 136.1 MB.
+Total: 2.842800 ms (FindLiveObjects: 0.393300 ms CreateObjectMapping: 0.109400 ms MarkObjects: 2.246100 ms  DeleteObjects: 0.093100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 93607.725678 seconds.
+  path: Assets/Resources/levels/ShortDust2.asset
+  artifactKey: Guid(3f3561678a4f4d7aac37a8115ed4a88a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/levels/ShortDust2.asset using Guid(3f3561678a4f4d7aac37a8115ed4a88a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abc50c037759992e6f0cabe89ab458f8') in 0.031407 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 7.615573 seconds.
+  path: Assets/Resources/inventory/skins/knifeblueblood/KnifeBlueBlood_Albedo.png
+  artifactKey: Guid(f58d57cae7894138ac9a7cadd124813c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/inventory/skins/knifeblueblood/KnifeBlueBlood_Albedo.png using Guid(f58d57cae7894138ac9a7cadd124813c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab26ca3b0e4ae8d405448f5a98db2b33') in 0.045677 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resources/inventory/skins/knifeblueblood/KnifeBlueBlood_Diffuse.mat
+  artifactKey: Guid(ae71c1e7439348e9a591f0b8379e9c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/inventory/skins/knifeblueblood/KnifeBlueBlood_Diffuse.mat using Guid(ae71c1e7439348e9a591f0b8379e9c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '318373a3c634c0cb6d011c78626eb3f7') in 0.051146 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.317114 seconds.
+  path: Assets/Resources/inventory/badges/MedalAssistanceBronze.asset
+  artifactKey: Guid(52de9cc5132c4b67a11215212027445c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/inventory/badges/MedalAssistanceBronze.asset using Guid(52de9cc5132c4b67a11215212027445c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fea086f90a09fb27538ef8f754ef732c') in 0.002023 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Resources/inventory/badges/MedalAssistancePlatinum.asset
+  artifactKey: Guid(3bcca2b169a5438b9a2cefed1ebd3a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/inventory/badges/MedalAssistancePlatinum.asset using Guid(3bcca2b169a5438b9a2cefed1ebd3a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8514a3ddd5c76639428b0381a10059a') in 0.001530 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 19.984717 seconds.
+  path: Assets/Resources/arms/fsb/FSB_BumpedDiffuse.asset
+  artifactKey: Guid(e94aca5b9dc24f2786384d04dfe55bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/arms/fsb/FSB_BumpedDiffuse.asset using Guid(e94aca5b9dc24f2786384d04dfe55bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '744cca91167c02bd99941316a8dbc963') in 0.005132 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/arms/fsb/FSB_PBR.asset
+  artifactKey: Guid(38a4e4ce92744ba4b733de9e7a360be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/arms/fsb/FSB_PBR.asset using Guid(38a4e4ce92744ba4b733de9e7a360be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d91a833398c4705fc39097c289442b3') in 0.002397 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 332.906178 seconds.
+  path: Assets/MonoBehaviour/emoji_one.asset
+  artifactKey: Guid(2fb6e9f8a6f7419a8cd0442de9a5692a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MonoBehaviour/emoji_one.asset using Guid(2fb6e9f8a6f7419a8cd0442de9a5692a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '146b0a5e42e60db0774e48b7cccd86c7') in 0.001722 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.004137 seconds.
+  path: Assets/MonoBehaviour/PlayerMecanimConfig.asset
+  artifactKey: Guid(c3c8b6bc65a54b40af9dc831e8059b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MonoBehaviour/PlayerMecanimConfig.asset using Guid(c3c8b6bc65a54b40af9dc831e8059b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '271f2196c042a2b8457a22f3e6fbb78e') in 2.927670 seconds 
+Number of asset objects unloaded after import = 388
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009109 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.318 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1318ms)
+		BeginReloadAssembly (146ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (1080ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (239ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (640ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (529ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3868 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (22.9 KB). Loaded Objects now: 4386.
+Memory consumption went from 135.1 MB to 135.1 MB.
+Total: 2.992800 ms (FindLiveObjects: 0.446300 ms CreateObjectMapping: 0.275000 ms MarkObjects: 2.238100 ms  DeleteObjects: 0.032300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011026 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.264 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1265ms)
+		BeginReloadAssembly (149ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (1029ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (223ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (628ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (518ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3872 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (49.9 KB). Loaded Objects now: 4393.
+Memory consumption went from 135.7 MB to 135.7 MB.
+Total: 4.388600 ms (FindLiveObjects: 0.370800 ms CreateObjectMapping: 0.107300 ms MarkObjects: 3.826700 ms  DeleteObjects: 0.082900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 924.240130 seconds.
+  path: Assets/Resources/weapons/bomb/17525821_keyboard-click_by_bitmaker_preview.wav
+  artifactKey: Guid(eac1be0ca6934dd8a44535ebf974543c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/weapons/bomb/17525821_keyboard-click_by_bitmaker_preview.wav using Guid(eac1be0ca6934dd8a44535ebf974543c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bf635201cfb906f914ed48ffd91fc46') in 0.085339 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/weapons/bomb/Bomb_Diffuse.asset
+  artifactKey: Guid(7f455f93b9b65b249a3c7b9ae7993671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/weapons/bomb/Bomb_Diffuse.asset using Guid(7f455f93b9b65b249a3c7b9ae7993671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '844032df07eec2d8a5421c5fb9902b65') in 0.002106 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Resources/weapons/bomb/Bomb_BumpedSpecular.asset
+  artifactKey: Guid(446324df21f1af04c8f4608d3dcb887b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/weapons/bomb/Bomb_BumpedSpecular.asset using Guid(446324df21f1af04c8f4608d3dcb887b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6af67aaf05516d9080d307c52bb7960c') in 0.003522 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resources/weapons/bomb/BombClick1.ogg
+  artifactKey: Guid(b8b16fa36a1c0734fa01f5980fc85b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/weapons/bomb/BombClick1.ogg using Guid(b8b16fa36a1c0734fa01f5980fc85b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '590f1e2d84932c4e9f67da6b8f545a8c') in 0.008825 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources/weapons/bomb/Bomb_BumpedDiffuse.asset
+  artifactKey: Guid(e70e42c5a16274d40922fa61a11f75e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/weapons/bomb/Bomb_BumpedDiffuse.asset using Guid(e70e42c5a16274d40922fa61a11f75e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1929662c75beeb2d14ac74bdf87677b8') in 0.001531 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/weapons/bomb/Bomb_Anim.asset
+  artifactKey: Guid(eb81d951dbeb7ff419b48c89b07c2517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/weapons/bomb/Bomb_Anim.asset using Guid(eb81d951dbeb7ff419b48c89b07c2517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e4ef94f732fc5a2a2eae9891780b77') in 0.088319 seconds 
+Number of asset objects unloaded after import = 156
+========================================================================
+Received Import Request.
+  Time since last request: 0.300162 seconds.
+  path: Assets/Resources/weapons/awm/AWM_Anim.asset
+  artifactKey: Guid(daa3e22f6f28a8847b76787460241d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/weapons/awm/AWM_Anim.asset using Guid(daa3e22f6f28a8847b76787460241d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd345849d433e0004e84f3b3d73477993') in 0.061130 seconds 
+Number of asset objects unloaded after import = 158
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/weapons/awm/AWM_Diffuse.asset
+  artifactKey: Guid(ca6eae650adde6941bf203d38e371603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/weapons/awm/AWM_Diffuse.asset using Guid(ca6eae650adde6941bf203d38e371603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a82321a45f82bd16398251ad83e530c0') in 0.001822 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resources/weapons/awm/gun_rifle_sniper_cock_04_half1.ogg
+  artifactKey: Guid(5aa932de438306b4a99d545ccf114451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/weapons/awm/gun_rifle_sniper_cock_04_half1.ogg using Guid(5aa932de438306b4a99d545ccf114451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f97018b3b563c311b205bce8b679623d') in 0.006301 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/weapons/awm/gun_submachine_auto_magazine_unload_01.ogg
+  artifactKey: Guid(94dc2e89c8bdaa543a5a3e1505b6fa23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/weapons/awm/gun_submachine_auto_magazine_unload_01.ogg using Guid(94dc2e89c8bdaa543a5a3e1505b6fa23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ce679780224562b9fc69b51293e3554') in 0.006894 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resources/weapons/awm/gun_submachine_auto_magazine_load_01.ogg
+  artifactKey: Guid(b94e00fad4a6a4c4086b6755147f9949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/weapons/awm/gun_submachine_auto_magazine_load_01.ogg using Guid(b94e00fad4a6a4c4086b6755147f9949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfc43ff3e8a9f1e38235d08065b771d5') in 0.007620 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 34.100255 seconds.
+  path: Assets/Resources/weapons/deagle/Deagle_Anim.asset
+  artifactKey: Guid(ebf561e3a6369ba4fbfdfc67ddda40f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/weapons/deagle/Deagle_Anim.asset using Guid(ebf561e3a6369ba4fbfdfc67ddda40f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e1774c16dc6eaebff5a5a82a8b34433') in 0.063964 seconds 
+Number of asset objects unloaded after import = 158
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/weapons/deagle/gun_pistol_remove_mag_02.ogg
+  artifactKey: Guid(7a4e333887daaa041ae91b2b2016f79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/weapons/deagle/gun_pistol_remove_mag_02.ogg using Guid(7a4e333887daaa041ae91b2b2016f79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c7099a17e48d9d1d52bb69e45c3c894') in 0.006252 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/weapons/deagle/Deagle_BumpedSpecular.asset
+  artifactKey: Guid(383647fa14bf2bb48969c66f2a974acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/weapons/deagle/Deagle_BumpedSpecular.asset using Guid(383647fa14bf2bb48969c66f2a974acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fab65d582249819b7774d54b14876e8') in 0.002896 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/weapons/deagle/Deagle_Diffuse.asset
+  artifactKey: Guid(1d9dd3b5dc21e9f46a795fe854583373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/weapons/deagle/Deagle_Diffuse.asset using Guid(1d9dd3b5dc21e9f46a795fe854583373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '531ece9bcb4c45f7ea539ceafcfd34d0') in 0.002014 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources/weapons/deagle/deagle_gunlock1_new.wav
+  artifactKey: Guid(60003da50af341f3b12b6c8d66b60241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/weapons/deagle/deagle_gunlock1_new.wav using Guid(60003da50af341f3b12b6c8d66b60241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd40d45f3fd17347c73d009bffac36015') in 0.007134 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/weapons/deagle/gun_pistol_remove_mag_02 — копия.wav
+  artifactKey: Guid(6155d1880ed7420e8e6021adf9ef4048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/weapons/deagle/gun_pistol_remove_mag_02 — копия.wav using Guid(6155d1880ed7420e8e6021adf9ef4048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4680adb47405db66d5c432854d337642') in 0.007579 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/weapons/deagle/deagle_magazineIn 1.wav
+  artifactKey: Guid(a75b97e264144365bbe2b0e9450f31ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/weapons/deagle/deagle_magazineIn 1.wav using Guid(a75b97e264144365bbe2b0e9450f31ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fc70568205948287690d7cd6464a808') in 0.010692 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/weapons/deagle/deagle_gunlock2_new.ogg
+  artifactKey: Guid(11a9740609045ee45b820bf06ee93394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/weapons/deagle/deagle_gunlock2_new.ogg using Guid(11a9740609045ee45b820bf06ee93394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b06ba494a9051964680499b924a6c78b') in 0.005558 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 956.302336 seconds.
+  path: Assets/Resources/weapons/deagle/Deagle.asset
+  artifactKey: Guid(b004f59b0b94e8e4cba903a084eabed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/weapons/deagle/Deagle.asset using Guid(b004f59b0b94e8e4cba903a084eabed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f62275227759786f895dcad59fbce483') in 0.003506 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.625361 seconds.
+  path: Assets/Resources/weapons/awm/AWM.asset
+  artifactKey: Guid(76d1bdb011ff9564a93a9a04ef262eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/weapons/awm/AWM.asset using Guid(76d1bdb011ff9564a93a9a04ef262eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec0c8862e090acc29c060407d3ab166') in 0.001794 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 193.837901 seconds.
+  path: Assets/Resources/weapons/awm/AWM.asset
+  artifactKey: Guid(76d1bdb011ff9564a93a9a04ef262eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/weapons/awm/AWM.asset using Guid(76d1bdb011ff9564a93a9a04ef262eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eba50169250410dae413582c82b8ff66') in 0.002623 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 21.177074 seconds.
+  path: Assets/Resources/weapons/defusekit/DefuseKit.asset
+  artifactKey: Guid(16ac13399d5c65e4cb46210a7e23b5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/weapons/defusekit/DefuseKit.asset using Guid(16ac13399d5c65e4cb46210a7e23b5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca4156e78c4f345fde6ea49509c97bc') in 0.001965 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002776 seconds.
+  path: Assets/Resources/weapons/defusekit/DefuseKit_BumpedSpecular.asset
+  artifactKey: Guid(d8688cfbc7298aa439876254746412b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/weapons/defusekit/DefuseKit_BumpedSpecular.asset using Guid(d8688cfbc7298aa439876254746412b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5890119e2cb233d1cdb73f90d51ac7ea') in 0.002011 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/weapons/defusekit/DefuseKit_BumpedDiffuse.asset
+  artifactKey: Guid(167d69e9a0c36744cae304772e62ef0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/weapons/defusekit/DefuseKit_BumpedDiffuse.asset using Guid(167d69e9a0c36744cae304772e62ef0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3655402b32844f2bf23a0e14592a75f') in 0.002039 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/weapons/defusekit/DefuseKit_Diffuse.asset
+  artifactKey: Guid(a746a619d3641ec4bb9a68a24d37db74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/weapons/defusekit/DefuseKit_Diffuse.asset using Guid(a746a619d3641ec4bb9a68a24d37db74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6ac54dcd847bcc919868adf87b74e98') in 0.002007 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources/weapons/defusekit/DefuseKit_PBR.asset
+  artifactKey: Guid(5834bd77b1cf0424d863f4b774f57edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/weapons/defusekit/DefuseKit_PBR.asset using Guid(5834bd77b1cf0424d863f4b774f57edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b6ccf7bfc2fb4452168930f2d23e51b') in 0.001946 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resources/weapons/defusekit/DefuseKit_Model.prefab
+  artifactKey: Guid(39e08ff91d2b30d4e907126ad111032d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/weapons/defusekit/DefuseKit_Model.prefab using Guid(39e08ff91d2b30d4e907126ad111032d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4bb3781f6d0316d99a81cbceed006cc') in 0.041584 seconds 
+Number of asset objects unloaded after import = 25
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
